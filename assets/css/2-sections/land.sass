@@ -1,9 +1,19 @@
-.videobg
+body
+  margin: 0
+  background: pink
+
+video
   position: fixed
-  right: 0
-  bottom: 0
+  top: 50%
+  left: 50%
   min-width: 100%
   min-height: 100%
   width: auto
   height: auto
-  
+  transform: translate(-50%,-50%)
+  z-index: -1
+
+@media (max-width: 380px)
+  video
+    top: 80%
+    left: -20%
