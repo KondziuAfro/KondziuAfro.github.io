@@ -66,7 +66,7 @@ gulp.task('pug', function(){
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
-    gulp.watch('assets/css/*', ['sass']);
+    gulp.watch('assets/css/**', ['sass']);
     gulp.watch(['*.html', '_layouts/*.html', '_includes/*','assets/img/*'], ['jekyll-rebuild']);
     gulp.watch(['_pugfiles/*.pug'], ['pug']);
     gulp.watch(['assets/js/*.js'], ['jekyll-rebuild']);
