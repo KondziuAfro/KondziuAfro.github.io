@@ -510,7 +510,7 @@ video {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: -1;
-  background: transparent url("/assets/img/beachHD.png") no-repeat 0 0;
+  background: transparent url("/assets/img/BeachMobile.png") no-repeat 0 0;
   background-size: cover; }
 
 .content {
